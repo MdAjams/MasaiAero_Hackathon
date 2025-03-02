@@ -106,6 +106,7 @@ The model will generate predictions and provide feature importance insights to h
 ## Contributors
 - Jasveer Singh
 - Akash Singh Rathour
-
+-  Ajam Ali
+  
 ## License
 This project is licensed under the MIT License.
