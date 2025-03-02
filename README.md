@@ -23,6 +23,8 @@ The dataset includes the following key features:
 - Revenue per ASK
 - Cost per ASK
 - Profit (USD) (Target Variable)
+## Deplolyed App
+** Machine learning Model 
 
 ## Methodology
 ### 1. Data Preprocessing
