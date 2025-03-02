@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Airline Profitability Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; }
+        h1 { text-align: center; }
+        .container { width: 80%; margin: auto; }
+        img { width: 100%; max-width: 800px; display: block; margin: 20px auto; }
+        .box { background: #f8f8f8; padding: 15px; border-radius: 5px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>📊 Airline Profitability Report</h1>
+
+    <div class='container'>
+        <div class='box'>
+            <h2>1️⃣ Summary Statistics</h2>
+            <p><b>Profit (Mean):</b> 5142.45</p>
+            <p><b>Revenue (Mean):</b> 25571.45</p>
+            <p><b>Operating Cost (Mean):</b> 20429.00</p>
+        </div>
+
+        <div class='box'>
+            <h2>2️⃣ Key Profitability Insights</h2>
+            <ul>
+                <li>✔️ Higher revenue is strongly correlated with higher profit.</li>
+                <li>✔️ Operating costs have a moderate negative impact on profit.</li>
+                <li>✔️ Load Factor and Fleet Availability contribute positively to profitability.</li>
+            </ul>
+        </div>
+
+        <div class='box'>
+            <h2>3️⃣ Profit Distribution</h2>
+            <img src='profit_distribution.png' alt='Profit Distribution'>
+        </div>
+
+        <div class='box'>
+            <h2>4️⃣ Feature Correlation Heatmap</h2>
+            <img src='correlation_heatmap.png' alt='Correlation Heatmap'>
+        </div>
+    </div>
+</body>
+</html>
